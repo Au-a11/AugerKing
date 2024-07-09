@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auger King - Voitures de Luxe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo-auger-king.png" alt="Logo Auger King">
+            <h1>Auger King</h1>
+            <p>La marque de voiture qui incarne l'élégance et la puissance</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>Nos Modèles</h2>
+            <div class="gallery">
+                <img src="voiture1.jpg" alt="Voiture Auger King 1">
+                <img src="voiture2.jpg" alt="Voiture Auger King 2">
+                <img src="voiture3.jpg" alt="Voiture Auger King 3">
+                <img src="voiture4.jpg" alt="Voiture Auger King 4">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Auger King. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
